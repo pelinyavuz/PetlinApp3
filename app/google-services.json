@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "62813116564",
+    "firebase_url": "https://petlin-b5ea5.firebaseio.com",
+    "project_id": "petlin-b5ea5",
+    "storage_bucket": "petlin-b5ea5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62813116564:android:900e2e54cdd71589",
+        "android_client_info": {
+          "package_name": "com.example.pelin.petlinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62813116564-e249cmq9isarbjtupn1nhd9i50c9vpus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pelin.petlinapp",
+            "certificate_hash": "e621d087fd3009984e6d492243002302728e1141"
+          }
+        },
+        {
+          "client_id": "62813116564-8vnl2pnmu733u8kqbg0rqggpqp80dgq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtOvawXMF8Eef6bjLfsmLBOCyCc6sm9Og"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62813116564-8vnl2pnmu733u8kqbg0rqggpqp80dgq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

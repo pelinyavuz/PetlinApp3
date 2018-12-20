@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Silan"
+    android:background="@drawable/home">
+
+    <Button
+        android:id="@+id/sbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="@color/colorAccent"
+        android:text="İLAN VER"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/sbtn"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/sbtn"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="138dp"
+        android:text="İLANLAR"
+        android:textSize="20dp"
+        android:id="@+id/txtilanlar"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtilanlar"
+        android:id="@+id/lin1">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/pet1"/>
+
+        <LinearLayout
+            android:layout_width="225dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:background="#C9E1E8">
+
+
+        <TextView
+
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Şehir : İstanbul"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="11dp"/>
+            <TextView
+
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tür : Köpek"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Yaş : 0-6 aylık"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Cinsiyet : Dişi"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin1"
+        android:id="@+id/lin2">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/pet2"/>
+
+        <LinearLayout
+            android:layout_width="225dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical"
+            android:background="#C9E1E8">
+
+
+            <TextView
+
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Şehir : İstanbul"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="11dp"/>
+            <TextView
+
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tür : Köpek"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Yaş : 0-6 aylık"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Cinsiyet : Dişi"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin1">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/pet2"/>
+
+        <LinearLayout
+            android:layout_width="225dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical"
+            android:background="#C9E1E8">
+
+
+            <TextView
+
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Şehir : İstanbul"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="11dp"/>
+            <TextView
+
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tür : Köpek"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Yaş : 0-6 aylık"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Cinsiyet : Dişi"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    </RelativeLayout>

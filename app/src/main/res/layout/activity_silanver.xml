@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Silanver"
+    android:background="@drawable/home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtilan"
+        android:text="İlan Bilgilerini Giriniz"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/txtilan"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtsehir"
+        android:hint="Şehir Bilgilerini Giriniz"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtsehir"
+        android:layout_marginTop="15dp"
+        android:id="@+id/spnpet"
+        >
+    </Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/spncins"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spnpet"
+        android:layout_marginTop="15dp"
+        >
+    </Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spncins"
+        android:id="@+id/spnyas"
+        android:layout_marginTop="15dp"
+        >
+    </Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spnyas"
+        android:id="@+id/spnirk"
+        android:layout_marginTop="15dp"
+        >
+    </Spinner>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Açıklama Giriniz"
+        android:id="@+id/aciklama"
+        android:layout_below="@+id/spnirk"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resim Seç"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/aciklama"
+        android:id="@+id/sec"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resim Ekle"
+        android:layout_below="@+id/sec"
+        android:id="@+id/ekle"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İlan Yayınla"
+        android:layout_below="@+id/ekle"
+        android:id="@+id/yayinla"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>
